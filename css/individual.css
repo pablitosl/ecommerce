@@ -1,0 +1,72 @@
+main{
+    height: 1200px;
+}
+.funkoIndividual{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+.fotoIndividual{
+    height: 600px;
+    border: 1px solid coral;
+    border-radius: 40px;
+}
+.textoIndividual{
+    width: 50%;
+    
+}
+.textoIndividual h2{
+    font-size: 4rem;
+    text-shadow: 2px 2px 18px burlywood;
+}
+.textoIndividual h5{
+    font-size: 2rem;
+}
+.textoIndividual h3{
+    font-size: 3rem;
+}
+
+.similar{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+}
+.similar h4{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+.main-article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+article{
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 17px;
+    box-shadow: 0 2px 2px #c9cbce;
+    padding: .75rem ;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    text-align: center;
+}
+.pj{
+    height: 180px;
+    width: 180px;
+    padding: 0;
+}
+
+.mas{
+    padding: 5px 15px;
+    justify-content: center;
+    background-color: #74747a83;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 30%;
+    margin: 0;
+}

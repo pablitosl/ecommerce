@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="img/shuriken.png">
+    <title>Alura Anime</title>
+    <script src="https://kit.fontawesome.com/04f7d0d100.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Yantramanav:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div>
+            <div class="logo">
+                <img src="img/pngegg (1).png" alt="Luffy" class="logo__png">
+                <h1> Alura Anime</h1>
+                <img src="img/pngegg.png" alt="Naruto" class="logo__png">
+            </div>
+        </div>
+        <div class="interfaz">
+            <a href="login.html" class="login" id="log">login</a>
+            <button class="header-button" id="openMenu">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cartNumber">0</span>
+            </button>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" id="closeMenu">&times;</a>
+            <p class="titleCart">Tu carrito de compras:</p>
+            <section id="itemCart"></section>
+            <hr class="hr">
+            <div class="divPrice">
+                <p class="totalPrice">Total:</p>
+                <p class="totalPrice">$0</p>
+            </div>
+            <div class="buttonsCart">
+                <button class="btnCart" id="btnBuy">Finalizar compra</button>
+                <button class="btnCart" id="btnEmpty">Vaciar carrito</button>
+            </div>
+        </div>
+    </header>
+    <main class="section">
+        <div class="sec__one">
+            <div class="lista">
+                <h1>Funko pop</h1>
+                <hr>
+                <a href="#" class="btnFilter" category="all">All</a>
+                <a href="#" class="btnFilter" category="One Piece">One Piece</a>
+                <a href="#" class="btnFilter" category="Demon Slayer">Demon Slayer</a>
+                <a href="#" class="btnFilter" category="Naruto Shippuden">Naruto Shippuden</a>
+                <a href="#" class="btnFilter" category="Hunter x Hunter">Hunter x Hunter</a>
+            </div>
+        </div>
+
+        <div class="main-top">
+            <section class="main-article-top" id="products">
+                <article class="item" category="Hunter x Hunter"> 
+                    <img src="img/Producto/1.jpeg" alt="Hunter x Hunter" class="pj ancho">
+                    <h2>Gon Freecs</h2>
+                    <h5>Hunter x Hunter</h5>
+                    <h3>$5.000</h3>
+                    <button class="mas" id="1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="1">"Agregar al carrito"
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    </button>
+                </article>
+                <article class="item" category="One Piece"> 
+                    <img src="img/Producto/2.jpeg" alt="One Piece" class="pj">
+                    <h2>Trafalgar Law</h2>
+                    <h5>One Piece</h5>
+                    <h3>$4.000</h3>
+                    <button class="mas" id="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="2">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Naruto Shippuden"> 
+                    <img src="img/Producto/3.jpeg" alt="Naruto Shippuden" class="pj">
+                    <h2>Minato</h2>
+                    <h5>Naruto Shippuden</h5>
+                    <h3>$4.000</h3>
+                    <button class="mas" id="3">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="3">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Demon Slayer"> 
+                    <img src="img/Producto/4.jpeg" alt="Demon Slayer" class="pj">
+                    <h2>Inosuke</h2>
+                    <h5>Demon Slayer</h5>
+                    <h3>$3.000</h3>
+                    <button class="mas" id="4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="4">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+            </section>
+            <section class="main-article-top" id="products">
+                <article class="item" category="One Piece"> 
+                    <img src="img/Producto/5.jpg" alt="One Piece" class="pj alto">
+                    <h2>Nami</h2>
+                    <h5>One Piece</h5>
+                    <h3>$2.500</h3>
+                    <button class="mas" id="5">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="5">"Agregar al carrito"
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    </button>
+                </article>
+                <article class="item" category="Hunter x Hunter"> 
+                    <img src="img/Producto/6.jpeg" alt="Hunter x Hunter" class="pj">
+                    <h2>Leorio</h2>
+                    <h5>Hunter x Hunter</h5>
+                    <h3>$2.000</h3>
+                    <button class="mas" id="6">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="6">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Demon Slayer"> 
+                    <img src="img/Producto/7.jpeg" alt="Demon Slayer" class="pj">
+                    <h2>Tomioka</h2>
+                    <h5>Demon Slayer</h5>
+                    <h3>$3.500</h3>
+                    <button class="mas" id="7">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="7">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Naruto Shippuden"> 
+                    <img src="img/Producto/8.jpeg" alt="Naruto Shippuden" class="pj">
+                    <h2>Orochimaru</h2>
+                    <h5>Naruto Shippuden</h5>
+                    <h3>$3.000</h3>
+                    <button class="mas" id="8">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="8">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+            </section>
+            <section class="main-article-top" id="products">
+                <article class="item" category="One Piece"> 
+                    <img src="img/Producto/9.jpeg" alt="One Piece" class="pj">
+                    <h2>Luffytaro</h2>
+                    <h5>One Piece</h5>
+                    <h3>$5.000</h3>
+                    <button class="mas" id="9">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="9">"Agregar al carrito"
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    </button>
+                </article>
+                <article class="item" category="One Piece"> 
+                    <img src="img/Producto/10.jpg" alt="One Piece" class="pj alto">
+                    <h2>Sanji</h2>
+                    <h5>One Piece</h5>
+                    <h3>$4.500</h3>
+                    <button class="mas" id="10">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="10">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Hunter x Hunter"> 
+                    <img src="img/Producto/11.jpeg" alt="Hunter x Hunter" class="pj ancho">
+                    <h2>Killua</h2>
+                    <h5>Hunter x Hunter</h5>
+                    <h3>$5.000</h3>
+                    <button class="mas" id="11">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="11">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Naruto Shippuden"> 
+                    <img src="img/Producto/12.jpeg" alt="Naruto Shippuden" class="pj">
+                    <h2>Pain</h2>
+                    <h5>Naruto Shippuden</h5>
+                    <h3>$4.000</h3>
+                    <button class="mas" id="12">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="12">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+            </section>
+            <section class="main-article-top" id="products">
+                <article class="item" category="Naruto Shippuden"> 
+                    <img src="img/Producto/13.jpeg" alt="Naruto Shippuden" class="pj ancho">
+                    <h2>Kakashi</h2>
+                    <h5>Naruto Shippuden</h5>
+                    <h3>$4.000</h3>
+                    <button class="mas" id="13">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="13">"Agregar al carrito"
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    </button>
+                </article>
+                <article class="item" category="Demon Slayer"> 
+                    <img src="img/Producto/14.jpeg" alt="Demon Slayer" class="pj">
+                    <h2>Nezuko</h2>
+                    <h5>Demon Slayer</h5>
+                    <h3>$3.000</h3>
+                    <button class="mas" id="14">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="14">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="One Piece"> 
+                    <img src="img/Producto/15.png" alt="One Piece" class="pj ancho alto">
+                    <h2>Zoro</h2>
+                    <h5>One Piece</h5>
+                    <h3>$4.500</h3>
+                    <button class="mas" id="15">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="15">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Demon Slayer"> 
+                    <img src="img/Producto/16.jpeg" alt="Demon Slayer" class="pj ancho">
+                    <h2>Zenitsu</h2>
+                    <h5>Demon Slayer</h5>
+                    <h3>$3.500</h3>
+                    <button class="mas" id="16">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="16">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+            </section>
+            <section class="main-article-top" id="products">
+                <article class="item" category="Demon Slayer"> 
+                    <img src="img/Producto/17.jpeg" alt="Demon Slayer" class="pj">
+                    <h2>Tanjiro</h2>
+                    <h5>Demon Slayer</h5>
+                    <h3>$5.000</h3>
+                    <button class="mas" id="17">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="17">"Agregar al carrito"
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    </button>
+                </article>
+                <article class="item" category="Naruto Shippuden"> 
+                    <img src="img/Producto/18.jpeg" alt="Naruto Shippuden" class="pj">
+                    <h2>Naruto</h2>
+                    <h5>Naruto Shippuden</h5>
+                    <h3>$5.000</h3>
+                    <button class="mas" id="18">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="18">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Naruto Shippuden"> 
+                    <img src="img/Producto/19.jpeg" alt="Naruto Shippuden" class="pj alto">
+                    <h2>Sasuke</h2>
+                    <h5>Naruto Shippuden</h5>
+                    <h3>$5.000</h3>
+                    <button class="mas" id="19">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="19">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Naruto Shippuden"> 
+                    <img src="img/Producto/20.jpeg" alt="Naruto Shippuden" class="pj">
+                    <h2>Rock lee</h2>
+                    <h5>Naruto Shippuden</h5>
+                    <h3>$3.500</h3>
+                    <button class="mas" id="20">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="20">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+            </section>
+            <section class="main-article-top" id="products">
+                <article class="item" category="Hunter x Hunter"> 
+                    <img src="img/Producto/21.jpeg" alt="Hunter x Hunter" class="pj ancho">
+                    <h2>Hisoka</h2>
+                    <h5>Hunter x Hunter</h5>
+                    <h3>$4.000</h3>
+                    <button class="mas" id="21">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="21">"Agregar al carrito"
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    </button>
+                </article>
+                <article class="item" category="Naruto Shippuden"> 
+                    <img src="img/Producto/22.png" alt="Naruto Shippuden" class="pj alto">
+                    <h2>Tsunade</h2>
+                    <h5>Naruto Shippuden</h5>
+                    <h3>$2.000</h3>
+                    <button class="mas" id="22">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="22">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="One Piece"> 
+                    <img src="img/Producto/23.jpeg" alt="One Piece" class="pj ancho">
+                    <h2>Buffed Chopper</h2>
+                    <h5>One Piece</h5>
+                    <h3>$3.000</h3>
+                    <button class="mas" id="23">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="23">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="One Piece"> 
+                    <img src="img/Producto/24.jpg" alt="One Piece" class="pj alto">
+                    <h2>Luffy Gear 4</h2>
+                    <h5>One Piece</h5>
+                    <h3>$6.000</h3>
+                    <button class="mas" id="24">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="24">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+            </section>
+            <section class="main-article-top" id="products">
+                <article class="item" category="One Piece"> 
+                    <img src="img/Producto/25.jpg" alt="One Piece" class="pj alto">
+                    <h2>Franky</h2>
+                    <h5>One Piece</h5>
+                    <h3>$3.000</h3>
+                    <button class="mas" id="25">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="25">"Agregar al carrito"
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    </button>
+                </article>
+                <article class="item" category="Hunter x Hunter"> 
+                    <img src="img/Producto/26.jpg" alt="Hunter x Hunter" class="pj ">
+                    <h2>Kurapika</h2>
+                    <h5>Hunter x Hunter</h5>
+                    <h3>$2.500</h3>
+                    <button class="mas" id="26">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="26">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Hunter x Hunter"> 
+                    <img src="img/Producto/27.jpg" alt="Hunter x Hunter" class="pj ancho">
+                    <h2>Netero</h2>
+                    <h5>Hunter x Hunter</h5>
+                    <h3>$3.000</h3>
+                    <button class="mas" id="27">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="27">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+                <article class="item" category="Demon Slayer"> 
+                    <img src="img/Producto/28.jpg" alt="Demon Slayer" class="pj ">
+                    <h2>Muzan Kibutsuji</h2>
+                    <h5>Demon Slayer</h5>
+                    <h3>$3.000</h3>
+                    <button class="mas" id="28">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
+                    </button>
+                    <button class="cart-button" id="28">"Agregar al carrito"
+                        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </button>
+                </article>
+            </section>
+        </div> 
+    </main>
+    <section class="info">
+        <div class="border-info">
+            <i class="fas fa-shipping-fast icon-info text-light"></i>
+            <p class="info-text text-light">Envio gratis en compras superiores a $2500</p>
+        </div>
+        <div class="border-info">
+            <i class="fas fa-credit-card icon-info text-light"></i>
+            <p class="info-text text-light ">3 y 6 cuotas sin interés con tarjetas bancarias</p>
+        </div>
+        <div>
+            <a href="#"
+                target="_blank"><i class="fab fa-whatsapp icon-info text-light"></i></a>
+            <p class="info-text text-light">Contactanos por Whatsapp ante cualquier consulta</p>
+        </div>
+    </section>
+    <footer>
+        <div class="contacto">
+            <div class="title">
+                <img src="img/gonykill.png" class="gon">
+                <h1 class="titulo"> Alura Anime</h1>
+            </div>
+            <div class="privacidad">
+                <a href="#">Quienes somos</a> 
+                <a href="#">Política de privacidad</a>
+                <a href="#">Programa de fidelidad</a>
+                <a href="#">Nuestras tiendas</a>
+                <a href="#">Quiero ser franquiciado</a>
+                <a href="#">Anuncie aquí</a>
+            </div>
+            <div>
+                <form class="form">
+                    <h3>Hable con nosotros</h3>
+                    <input type="text" placeholder="Nombre">
+                    <textarea placeholder="Escriba su mensaje" class="msj"></textarea>
+                    <input type="submit" value="Enviar mensaje">
+                </form>
+            </div>
+        </div>
+        <div class="redes">
+            <a href="http://linkedin.com/in/pablo-castro-a0680a210" target="_blank">
+                <img class="logo__footer" src="img/linkedin.png" >
+            </a>
+            <a href="https://github.com/pablitosl" target="_blank">
+                <img class="logo__footer" src="img/github.png" >
+            </a>
+            <p>Created by Pablo © 2022</p>
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/interaction.js"></script>
+<script type="text/javascript" src="js/filter.js"></script>
+
+</body>
+</html>

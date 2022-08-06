@@ -1,0 +1,227 @@
+{
+    "products": [{
+            "id": 1,
+            "img": "img/Producto/1.jpeg",
+            "name": "Gon Freecs",
+            "description": "Hunter x Hunter",
+            "price": 5000,
+            "class": "funko"
+        },
+        {
+            "id": 2,
+            "img": "img/Producto/2.jpeg",
+            "name": "Trafalgar Law",
+            "description": "One Piece",
+            "price": 4000,
+            "class": "funko"
+        },
+        {
+            "id": 3,
+            "img": "img/Producto/3.jpeg",
+            "name": "Minato",
+            "description": "Naruto Shippuden",
+            "price": 4000,
+            "class": "funko"
+        },
+        {
+            "id": 4,
+            "img": "img/Producto/4.jpeg",
+            "name": "Inosuke",
+            "description": "Demon Slayer",
+            "price": 3000,
+            "class": "funko"
+        },
+        {
+            "id": 5,
+            "img": "img/Producto/5.jpg",
+            "name": "Nami",
+            "description": "One Piece",
+            "price": 2500,
+            "class": "funko"
+        },
+        {
+            "id": 6,
+            "img": "img/Producto/6.jpeg",
+            "name": "Leorio",
+            "description": "Hunter x Hunter",
+            "price": 2000,
+            "class": "funko"
+        },
+        {
+            "id": 7,
+            "img": "img/Producto/7.jpeg",
+            "name": "Tomioka",
+            "description": "Demon Slayer",
+            "price": 3500,
+            "class": "funko"
+        },
+        {
+            "id": 8,
+            "img": "img/Producto/8.jpeg",
+            "name": "Orochimaru",
+            "description": "Naruto Shippuden",
+            "price": 3000,
+            "class": "funko"
+        },
+        {
+            "id": 9,
+            "img": "img/Producto/9.jpeg",
+            "name": "Luffytaro",
+            "description": "One Piece",
+            "price": 5000,
+            "class": "funko"
+        },
+        {
+            "id": 10,
+            "img": "img/Producto/10.jpg",
+            "name": "Sanji",
+            "description": "One Piece",
+            "price": 4500,
+            "class": "funko"
+        },
+        {
+            "id": 11,
+            "img": "img/Producto/11.jpeg",
+            "name": "Killua",
+            "description": "Hunter x Hunter",
+            "price": 5000,
+            "class": "funko"
+        },
+        {
+            "id": 12,
+            "img": "img/Producto/12.jpeg",
+            "name": "Pain",
+            "description": "Naruto Shippuden",
+            "price": 4000,
+            "class": "funko"
+        },
+        {
+            "id": 13,
+            "img": "img/Producto/13.jpeg",
+            "name": "Kakashi",
+            "description": "Naruto Shippuden",
+            "price": 4000,
+            "class": "funko"
+        },
+        {
+            "id": 14,
+            "img": "img/Producto/14.jpeg",
+            "name": "Nezuko",
+            "description": "Demon Slayer",
+            "price": 3000,
+            "class": "funko"
+        },
+        {
+            "id": 15,
+            "img": "img/Producto/15.png",
+            "name": "Zoro",
+            "description": "One Piece",
+            "price": 4000,
+            "class": "funko"
+        },
+        {
+            "id": 16,
+            "img": "img/Producto/16.jpeg",
+            "name": "Zenitsu",
+            "description": "Demon Slayer",
+            "price": 3500,
+            "class": "funko"
+        },
+        {
+            "id": 17,
+            "img": "img/Producto/17.jpeg",
+            "name": "Tanjiro",
+            "description": "Demon Slayer",
+            "price": 5000,
+            "class": "funko"
+        },
+        {
+            "id": 18,
+            "img": "img/Producto/18.jpeg",
+            "name": "Naruto",
+            "description": "Naruto Shippuden",
+            "price": 5000,
+            "class": "funko"
+        },
+        {
+            "id": 19,
+            "img": "img/Producto/19.jpeg",
+            "name": "Sasuke",
+            "description": "Naruto Shippuden",
+            "price": 5000,
+            "class": "funko"
+        },
+        {
+            "id": 20,
+            "img": "img/Producto/20.jpeg",
+            "name": "Rock lee",
+            "description": "Naruto Shippuden",
+            "price": 3500,
+            "class": "funko"
+        },
+        {
+            "id": 21,
+            "img": "img/Producto/21.jpeg",
+            "name": "Hisoka",
+            "description": "Hunter x Hunter",
+            "price": 4000,
+            "class": "funko"
+        },
+        {
+            "id": 22,
+            "img": "img/Producto/22.png",
+            "name": "Tsunade",
+            "description": "Naruto Shippuden",
+            "price": 2000,
+            "class": "funko"
+        },
+        {
+            "id": 23,
+            "img": "img/Producto/23.jpeg",
+            "name": "Buffed Chopper",
+            "description": "One Piece",
+            "price": 3000,
+            "class": "funko"
+        },
+        {
+            "id": 24,
+            "img": "img/Producto/24.jpg",
+            "name": "Luffy Gear 4",
+            "description": "One Piece",
+            "price": 6000,
+            "class": "funko"
+        },
+        {
+            "id": 25,
+            "img": "img/Producto/25.jpg",
+            "name": "Franky",
+            "description": "One Piece",
+            "price": 3000,
+            "class": "funko"
+        },
+        {
+            "id": 26,
+            "img": "img/Producto/26.jpg",
+            "name": "Kurapika",
+            "description": "Hunter x Hunter",
+            "price": 2500,
+            "class": "funko"
+        },
+        {
+            "id": 27,
+            "img": "img/Producto/27.jpg",
+            "name": "Netero",
+            "description": "Hunter x Hunter",
+            "price": 3000,
+            "class": "funko"
+        },
+        {
+            "id": 28,
+            "img": "img/Producto/28.jpg",
+            "name": "Muzan Kibutsuji",
+            "description": "Demon Slayer",
+            "price": 3000,
+            "class": "funko"
+        }
+    ]
+    }

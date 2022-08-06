@@ -1,0 +1,56 @@
+footer{
+    background-color: whitesmoke;
+    font-family: 'Yantramanav', sans-serif;
+    box-sizing: border-box;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.gon{
+    height: 8rem;
+}
+.titulo{
+    font-family: 'Bangers', cursive;
+    font-size: 4rem;
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+}
+.privacidad{
+    display: flex;
+    flex-direction: column;
+}
+.privacidad a{
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    margin-top: 1rem;
+    
+}
+.msj{
+    padding-bottom: 5rem;
+    margin-top: 1rem;
+    resize: none;
+}
+.redes{
+    text-align: center;
+}
+.redes p{
+    margin: 0;
+}
+.logo__footer{
+    height: 50px;
+    margin: 10px;
+}
+.logo__footer:hover{
+    transform: scale(1.1);
+}

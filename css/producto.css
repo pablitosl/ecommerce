@@ -1,0 +1,138 @@
+*{
+    font-family: 'Yantramanav', sans-serif;
+    box-sizing: border-box;
+}
+.section{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 5rem;
+    background-color: cornflowerblue;
+}
+.sec__one div{
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3rem 1.2rem;
+}
+.sec__one div a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.pj{
+    height: 230px;
+    width: 230px;
+    padding: 1rem;
+}
+.alto{
+    height: 195px;
+    margin-bottom: 35px;
+}
+.ancho{
+    width: 205px;;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    text-align: center;
+    background-color: cornflowerblue;
+    margin: 0;
+    width: 100%;
+}
+.icon-info{
+    font-size: 45px;
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+    padding-bottom: 15px ;
+    transition: color 0.5s;
+}
+.info-text{
+    text-align: center;
+    padding: 0px 3px;
+    max-width: 350px;
+    font-size: 20px;
+}
+.border-info{
+    border-right: 1px solid #a1a1a1;
+    padding: 0px 5px;
+}
+.main-top{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-article-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title-product{
+    color: #000000;
+    font-size: 18px;
+}
+.description-product{
+    color: #000000;
+    padding: 7px 0px;
+    font-size: 15px;
+}
+.price-product{
+    color: #000000;
+    padding: 3px 0px 8px;
+}
+article{
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 17px;
+    box-shadow: 0 2px 2px #c9cbce;
+    padding: .75rem 1rem;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+    transition: all .4s;
+}
+article img{
+    width: 100%;
+}
+.cart-button{
+    padding: 10px 20px;
+    justify-content: center;
+    background-color: #74747a83;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    width: 90%;
+}
+.alertBuy {
+    background: linear-gradient(to right, rgb(0, 110, 255), #e251ff) !important;
+    white-space: initial !important;
+    width: 245px !important;
+    border-radius: 5px !important;
+}
+.alertCart{
+    background: linear-gradient(to right, #ffea73, #e72323) !important;
+    white-space: initial !important;
+    width: 245px !important;
+    border-radius: 5px !important;
+}
+
+.mas{
+    padding: 10px 20px;
+    justify-content: center;
+    background-color: #74747a83;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    width: 30%;
+    margin-bottom: 7px;
+}
+
+/*responsive*/
